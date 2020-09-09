@@ -1,0 +1,1 @@
+export const updatePosition = value => ({type: 'updatePosition', value})

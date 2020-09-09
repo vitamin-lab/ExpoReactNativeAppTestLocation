@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "name": "TestLocation",
+    "version": "1.0.1",
+    "description": "TestLocation",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "slug": "TestLocation",
+    "orientation": "landscape",
+    "primaryColor": "#000",
+    "privacy": "public",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "backgroundColor": "#000",
+      "resizeMode": "contain",
+      "image": "./assets/app-splash.png"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000"
+    },
+    "packagerOpts": {
+    },
+    "ios": {
+      "requireFullScreen": true,
+      "supportsTablet": true,
+      "buildNumber": "1",
+      "bundleIdentifier": "familyLab.TestLocation",
+
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "familyLab.TestLocation",
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+    }
+  }
+}
